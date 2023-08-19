@@ -4,11 +4,17 @@ Enter your code on line 7 to print 'Hello, World!'
 to the console (the panel on the right)
 */
 
-console.log("Hello World, I'm Sapana Bagde ");
+console.log("Hello World, I'm Sapana Bagde. Printing two message");
+
+console.log("my first line")
+console.log("my second line");
+console.log("786");
+
 
 /*  
 Next, PLAY! 
 Modify your code on line 7 to try to accomplish the tasks listed below:
+
 
    1. Change the message that is printed.
    2. Figure out what the parentheses do. Will the code work without them?
