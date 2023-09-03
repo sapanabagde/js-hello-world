@@ -5,7 +5,7 @@ to the console (the panel on the right)
 */
 
 console.log("Hello World, I'm Sapana Bagde. Printing two message");
-
+console.log("This is my first visual force Page aasignment");
 console.log("my first line")
 console.log("my second line");
 console.log("786");
