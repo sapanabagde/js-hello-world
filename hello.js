@@ -4,11 +4,11 @@ Enter your code on line 7 to print 'Hello, World!'
 to the console (the panel on the right)
 */
 
-console.log("Hello World, I'm Sapana Bagde. Printing two message");
+console.log("Hello World, Done will all Exercices");
 console.log("This is my first visual force Page aasignment");
 console.log("my first line")
 console.log("my second line");
-console.log("786");
+console.log("786+787=990");
 
 console.log ("This is my second visusl force page");
 /*  
