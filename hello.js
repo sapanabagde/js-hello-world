@@ -10,7 +10,7 @@ console.log("my first line")
 console.log("my second line");
 console.log("786");
 
-
+console.log ("This is my second visusl force page");
 /*  
 Next, PLAY! 
 Modify your code on line 7 to try to accomplish the tasks listed below:
