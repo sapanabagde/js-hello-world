@@ -12,7 +12,7 @@ let fuelTempCelsius = -225;
 let minimumFuelTemp =	-300;
 let maximumFuelTemp =	-150;
 let fuelLevel =	100;
-let weatherStatus =	"clear";
+let weatherStatus =	"clear";git
 let preparedForLiftOff ="true";
 if (astronautCount <= 7){
     if (astronautStatus === "ready") {
