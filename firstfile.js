@@ -1,7 +1,20 @@
+const input = require('readline-sync');
 
+let str = "";
 
+function splitString() {
+    str = input.question("Please enter string: ");
+    console.log(str.slice(3,10)+str.slice(0,3));
+    console.log();
+  }
 
-let name= "Sapana";
-console.log(name)
-let age= "40";
-let fruit="Mango";
+function runProgram() {
+    splitString();
+}
+
+  module.exports = {
+     runProgram: runProgram
+  };
+  runProgram();
+//str = "LaunchCode";
+//console.log(str.slice(3,10)+str.slice(0,3));
