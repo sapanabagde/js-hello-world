@@ -1,5 +1,5 @@
-let groceryBag = ['bananas', 'apples', 'edamame', 'chips', 'cucumbers', 'milk', 'cheese'];
-let selectedItems = [];
+//Print the EVEN numbers 12 down to -14 in descending order, one number per line.
 
-selectedItems = groceryBag.slice(2, 5).sort();
-console.log(selectedItems);
+for (let i = 12; i >= -14; i-=2) {
+   console.log(i);
+}

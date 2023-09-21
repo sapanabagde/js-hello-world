@@ -1,3 +1,12 @@
-const clothing = ['shoes', 'shirts', 'socks', 'sweaters'];
+	
+let numbers = [ 20, 44, 45 ];
+let searchVal = 42;
+let i = 0;
 
-console.log(clothing.length);
+while (i < numbers.length) {
+   console.log(i);
+   if (numbers[i] === searchVal) {
+      break;
+   }
+   i++;
+}

@@ -26,7 +26,7 @@
     console.log([i]);
  }*/
 
- /*const fruits = ["apple", "banana", "cherry", "mango", "guava" ];
+/*const fruits = ["apple", "banana", "cherry", "mango", "guava" ];
 
  for (let i=2; i < fruits.length; i++){
     console.log([i]);
@@ -76,12 +76,15 @@ animals.forEach(function(animal) {
 });*/
 
 
-// Iterating over "STRING"
+// Iterating   ***over "STRING"**
 
 /*let name = "Launchcode";
 for (let i = 0; i < name.length; i++) {
    console.log(name[i]);
 }*/
+
+
+// create a string variable containing your name
 
 /*let name = "Sapana";
 for (let i = 0; i < name.length; i++) {
@@ -89,7 +92,106 @@ for (let i = 0; i < name.length; i++) {
 }*/
 
 
-let name = [ "S", "A", "P" , "A" , "N" , "A" ]; 
+// write a for loop that prints each character in your name on a different line
+
+/*let name = [ "S", "A", "P" , "A" , "N" , "A" ]; 
 for (let i = 0; i < name.length; i++){
     console.log(name[i]);
+}*/
+
+// ITERATING ***OVER ARRAY**
+
+/*let languages = ["JS", "Java", "C#", "Python"];
+
+for (let i = 0; i < languages.length; i++) {
+   console.log(languages[i]);
+}*/
+	
+	
+/*let names = ["Sapana", "Parag", "Shantanu", "Samyak"];
+
+for (let i = 0; i < names.length; i++) {
+   console.log(names[i]);
+}*/
+
+/*const names = [ "Sapana", "Parag", "Shantanu", "Samyak" ]; 
+for (const name of names){
+    console.log(name);
+}*/
+
+/*let name = "LaunchCode";
+
+for (let i = 6; i < name.length; i++) {
+   console.log(name[i]);
+}*/
+
+/*for (let i = 3; i < 10; i++) {
+   console.log(i);
+}*/
+
+
+// This is EXAMPLE of loop does not iterate at all, because its condition is false to start with.
+
+/*for (let i = 0; i < -1; i++) {
+
+   console.log("LaunchCode");
+}*/
+
+/*for (let i = 0; i < 51; i = i + 2) {
+   console.log(i);
 }
+*/
+
+/*let phrase = "Chili Cook-off";
+              012345678910111213
+console.log(phrase.length)
+for (let i = 0; i < phrase.length-1; i = i + 3) {
+                 15 <     13          i = 12+3 = 15
+   console.log(phrase[i]);
+}*/
+
+/*let n = 6;
+let total = 0;
+
+for (let i = 1; i <= n; i++) {
+   total += i;
+   console.log("----------------------------",i);
+   console.log("value of i: ",i);
+   console.log("value of total: ",total)
+   
+}*/
+
+//console.log(total);
+
+//***********Reversing String Example*********
+
+/*let str = "blue";
+let reversed = "";
+
+for (let i = 0; i < str.length; i++) {
+   reversed = str[i] + reversed;
+}
+
+console.log(reversed);
+
+let str = "blue";
+let reversed = "";
+
+for (let i = 0; i < str.length; i++) {
+   reversed = reversed + str[i] ;
+
+}
+console.log(reversed);
+
+	
+for (let i = 0; i < 5; i++) {
+   console.log(i+1);
+}*/
+
+let i = 0;
+
+while (i < 5) {
+   console.log(i);
+   i++;
+}
+
