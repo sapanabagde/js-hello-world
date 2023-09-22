@@ -40,7 +40,7 @@ javaScriptFrameworks[2] = "Vue";
 // Notice the value at index 2 is now "Vue"
 console.log(javaScriptFrameworks);*/
 
-/*let name = ["Rama", "Bhima", "Uma"];
+let name = ["Rama", "Bhima", "Uma"];
 console.log(name);
 
 // Set the value of index 2 to be "Tima"
@@ -62,11 +62,11 @@ console.log(newstr);*/
 
 /*let groceryBag = ['bananas', 'apples', 'edamame', 'chips', 'cucumbers', 'milk', 'cheese'];
 
-selectedItems = groceryBag.sort();
+/*selectedItems = groceryBag.sort();
 console.log(selectedItems);*/
 
 let groceryBag = ['bananas', 'apples', 'edamame', 'chips', 'cucumbers', 'milk', 'cheese'];
 let selectedItems = [];
 
 selectedItems = groceryBag.slice(2, 5).sort();
-console.log(selectedItems);
+console.log(selectedItems);*/
