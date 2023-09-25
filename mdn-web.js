@@ -1,12 +1,6 @@
-	
-let numbers = [ 20, 44, 45 ];
-let searchVal = 42;
-let i = 0;
+const input = require('readline-sync');
 
-while (i < numbers.length) {
-   console.log(i);
-   if (numbers[i] === searchVal) {
-      break;
-   }
-   i++;
-}
+
+let myQuestion = input.question("\nWho is favorite hero? ");
+
+console.log(myQuestion + "? That's my favorite too ");

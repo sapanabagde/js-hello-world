@@ -33,7 +33,6 @@ console.log(meals);
   return meals;
 }
 
-
 function askForNumber() {
   numMeals = input.question("How many meals would you like to make?");
   
