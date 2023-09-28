@@ -1,7 +1,5 @@
-let num = 42;
-
-function isEven (num) {
-   return num % 2 === 0;
+function callMe(func) {
+   func();
 }
 
-console.log(isEven(43));
+callMe("Al");
