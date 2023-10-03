@@ -38,8 +38,8 @@ if (i % 3 === 0 ) {
 //Initialize two variables to hold the string “LaunchCode” and the array [1, 5, ‘LC101’, ‘blue’, 42].
 //Construct ``for`` loops to accomplish the following tasks:
 
-const myString = "Launchcode";
-const MyArray =  [1, 5, 'LC101', 'blue', 42];
+// const myString = "Launchcode";
+// const MyArray =  [1, 5, 'LC101', 'blue', 42];
 
 
 //a. Print each element of the array to a new line.
@@ -64,15 +64,32 @@ for (let i = myString.length - 1; i >= 0; i--) {
 //a. One array contains the even numbers, and the other holds the odds.
 //b. Print the arrays to confirm the results. */
                 
-let otherArr = [2, 3, 13, 18, -5, 38, -10, 11, 0, 104];
-let evens = [], odds = [];
+// let otherArr = [2, 3, 13, 18, -5, 38, -10, 11, 0, 104];
+// let evens = [], odds = [];
              
-for (let i = 0; i < otherArr.length; i++){
-    if (otherArr[i] % 2 == 0){
-        evens.push(otherArr[i]);
-    }else {
-        odds.push(otherArr[i]);
+// for (let i = 0; i < otherArr.length; i++){
+//     if (otherArr[i] % 2 == 0){
+//         evens.push(otherArr[i]);
+//     }else {
+//         odds.push(otherArr[i]);
+//     }
+// }
+// console.log(evens);
+// console.log(odds);
+
+
+// writing for loop 
+
+let students = {
+    names: ["Gerard Darris", "Banana Cat", "Apple Dog", "Mango Zebra", "Kiwi Kiwi"],
+    scores: [100, 95, 74, 82, 91]
+};
+
+for (let i = 0; i < students["names"].length; i++) {
+    let output = "";
+
+    for (items in students) {
+        output += `${students[items][i]}: `
     }
+    console.log(output.slice(0, -2));
 }
-console.log(evens);
-console.log(odds);
