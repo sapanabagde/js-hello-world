@@ -9,6 +9,7 @@
    "author": "Launchcode",
    "license": "ISC",
    "dependencies": {
+      "js-hello-world": "^1.0.0",
       "readline-sync": "^1.4.10"
    },
    "devDependencies": {

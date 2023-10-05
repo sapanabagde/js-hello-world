@@ -2,9 +2,9 @@
 
 // BASIC FOR LOOP (this loop will print number from 0 to 4)
 
-//for (let i = 0; i < 3; i++) {
-    //console.log(i);
- //}
+// for (let i = 0; i < 3; i++) {
+//    console.log(i);
+//  }
 
 /*for (let i = 0; i < 10 ; i++){
     console.log(i);
@@ -165,33 +165,85 @@ for (let i = 1; i <= n; i++) {
 
 //***********Reversing String Example*********
 
-/*let str = "blue";
-let reversed = "";
+// /*let str = "blue";
+// let reversed = "";
 
-for (let i = 0; i < str.length; i++) {
-   reversed = str[i] + reversed;
-}
+// for (let i = 0; i < str.length; i++) {
+//    reversed = str[i] + reversed;
+// }
 
-console.log(reversed);
+// console.log(reversed);
 
-let str = "blue";
-let reversed = "";
+// let str = "blue";
+// let reversed = "";
 
-for (let i = 0; i < str.length; i++) {
-   reversed = reversed + str[i] ;
+// for (let i = 0; i < str.length; i++) {
+//    reversed = reversed + str[i] ;
 
-}
-console.log(reversed);
+// }
+// console.log(reversed);
 
 	
-for (let i = 0; i < 5; i++) {
-   console.log(i+1);
-}*/
+// for (let i = 0; i < 5; i++) {
+//    console.log(i);
+// }
 
-let i = 0;
+//Iterating over string
 
-while (i < 5) {
-   console.log(i);
-   i++;
-}
 
+// let name = "LaunchCode";
+
+// for (let i = 0; i < name.length; i++) {
+//    console.log(name[i]);
+// }
+
+// let name = "Sapana";
+
+// for (let i = 0; i < name.length; i++) {
+//    console.log(name[i]);
+// }
+
+//************************************************** */
+
+//Iterating over Arrays
+// let languages = ["JS", "Java", "C#", "Python"];
+
+// for (let i = 0; i < languages.length; i++) {
+//    console.log(languages[i]);
+// }
+
+
+// let names = ["Wani", "Toni", "Soni", "Mani"];
+
+// for (let i = 0; i < names.length; i++) {
+//    console.log(names[i]);
+// }
+
+//  let numbers = [1,2,3,4,5];
+// for (let i = 0; i < numbers.length; i++) {
+//       console.log(numbers[i]);
+//       }
+
+// for (let i = 3; i <= 10; i++) {
+//    console.log(i);
+// }
+
+// let name = "LaunchCode";
+
+// for (let i = 6; i < name.length; i++) {
+//    console.log(name[i]);
+// }
+
+// Varaible not Required
+
+	
+// let phrase = "Chili Cook-off";
+
+// for (let i = 0; i < phrase.length - 1; i = i + 3) {
+//    console.log(phrase[i]);
+// }
+
+
+// for (let i = 0; i < 10; i = i + 3) {
+//    console.log(i);
+// }

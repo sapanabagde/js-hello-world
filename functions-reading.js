@@ -269,10 +269,10 @@
 
 /* Calling Vs Defining **/
 
-function sayHello(firstName) {
-   return `Hello, ${firstName}!`; 
-    }
-    console.log(sayHello("Joe"));
+// function sayHello(firstName) {
+//    return `Hello, ${firstName}!`; 
+//     }
+//     console.log(sayHello("Joe"));
 
 /* Parameters are Variables **/
 
@@ -299,21 +299,46 @@ function sayHello(firstName) {
 //           console.log(addThreeNums(5, 5, 5));
 //           console.log( `the sum of 6, 6, and 6 is  ${addThreeNums(6, 6, 6)}.`);                  
 
-function subtotal(arr) {
-  let sum = 0;
-  for (let i=0; i < arr.length; i++) {
-  sum += arr[i];
+// function subtotal(arr) {
+//   let sum = 0;
+//   for (let i=0; i < arr.length; i++) {
+//   sum += arr[i];
+//   }
+//   return sum; 
+// }
+
+// function getTotals(month, arr1, arr2) {
+//   let div1 = subtotal(arr1);
+//   let div2 = subtotal(arr2);
+
+//   return `In the month of ${month} Division 1 had ${div1} in earnings, while Division
+//    2 had ${div2} in earnings. Total earnings was $${div1 + div2}.`;
+// }
+
+// let earnings1 = [13056, 29430, 10230, 57283];
+// let earnings2 = [20435, 62433, 19857];
+
+
+
+// function sayHello() {
+//   console.log("Hello, World!");
+// }
+
+// sayHello();
+
+// f
+
+// function pastThePointOfReturn() {
+//   return "I'm done!";
+//   console.log("This will not be printed");
+// }
+
+// console.log(pastThePointOfReturn());
+
+
+function isEven(n) {
+  if (n % 2 === 0) {
+      return true;
   }
-  return sum; 
+  return false;
 }
-
-function getTotals(month, arr1, arr2) {
-  let div1 = subtotal(arr1);
-  let div2 = subtotal(arr2);
-
-  return `In the month of ${month} Division 1 had ${div1} in earnings, while Division
-   2 had ${div2} in earnings. Total earnings was $${div1 + div2}.`;
-}
-
-let earnings1 = [13056, 29430, 10230, 57283];
-let earnings2 = [20435, 62433, 19857];
