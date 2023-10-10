@@ -1,7 +1,7 @@
 	
    const checkFive = require('./checkFive.js');
 
-   describe("checkFive", function(){
+   describe("checkFive", function() {
 
       test("test for number five check", function() {
         let result = checkFive(3);
