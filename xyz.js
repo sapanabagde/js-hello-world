@@ -268,14 +268,65 @@ let arr = [];
 
 
 	
-let shuttleCrews = [
-    ['Robert Gibson', 'Mark Lee', 'Mae Jemison'],
-    ['Kent Rominger', 'Ellen Ochoa', 'Bernard Harris'],
-    ['Eilen Collins', 'Winston Scott',  'Catherin Coleman']
-];
+// let shuttleCrews = [
+//     ['Robert Gibson', 'Mark Lee', 'Mae Jemison'],
+//     ['Kent Rominger', 'Ellen Ochoa', 'Bernard Harris'],
+//     ['Eilen Collins', 'Winston Scott',  'Catherin Coleman']
+// ];
 
-let newCrew = ['Mark Polansky', 'Robert Curbeam', 'Joan Higginbotham'];
+// let newCrew = ['Mark Polansky', 'Robert Curbeam', 'Joan Higginbotham'];
 
-// Add a new crew array to the end of shuttleCrews
-shuttleCrews.push(newCrew);
-console.log(shuttleCrews[3][2]);
+// // Add a new crew array to the end of shuttleCrews
+// shuttleCrews.push(newCrew);
+// console.log(shuttleCrews[3][2]);
+//**************************************************************************************************************
+// This assignment is inspired by a problem on Exercism (https://exercism.org/tracks/javascript/exercises/etl) that demonstrates Extract-Transform-Load using Scrabble's scoring system. 
+
+const input = require("readline-sync");
+
+const oldPointStructure = {
+  1: ['A', 'E', 'I', 'O', 'U', 'L', 'N', 'R', 'S', 'T'],
+  2: ['D', 'G'],
+  3: ['B', 'C', 'M', 'P'],
+  4: ['F', 'H', 'V', 'W', 'Y'],
+  5: ['K'],
+  8: ['J', 'X'],
+  10: ['Q', 'Z']
+};
+
+function oldScrabbleScorer(word) {
+	word = word.toUpperCase();
+	let letterPoints = "";
+ 
+	for (let i = 0; i < word.length; i++) {
+
+ 
+	  for (const pointValue in oldPointStructure) {
+ 
+		 if (oldPointStructure[pointValue].includes(word[i])) {
+			letterPoints += `Points for '${word[i]}': ${pointValue}\n`
+		 }
+ 
+	  }
+	}
+	return letterPoints;
+ }
+
+// your job is to finish writing these functions and variables that we've named //
+// don't change the names or your program won't work as expected.
+
+// function initialPrompt() {
+//     let candidateWord = "";   //declaring the Variable first
+    
+//     console.log("Let's play some scrabble!\n");
+    
+//     candidateWord = input.question("Enter a word to score: "); // previously defined function and the word provided by the user 
+    
+//     //console.log(oldScrabbleScorer(candidateWord));  //        // This will score the 
+    
+//     return candidateWord;
+//  };
+ 
+//console.log("This is" an example);
+
+

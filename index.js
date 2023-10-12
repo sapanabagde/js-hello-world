@@ -42,5 +42,6 @@ for (let i = 0; i<prompts.length; i++){
     }
   } else {
     console.log("Option skipped.");
-  }
+  } 
 }
+    
