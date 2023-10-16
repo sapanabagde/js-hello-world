@@ -11,13 +11,10 @@ function divide(numerator, denominator) {
  console.log(divide(1,0));
 
 
-
-
-
 //Test student labs Example
 
 
-/*function gradeLabs(labs) {
+function gradeLabs(labs) {
    
     try{
         for (let i=0; i < labs.length; i++) {
@@ -53,4 +50,4 @@ let studentLabs2 = [
     }
   ];
   
-  console.log(gradeLabs(studentLabs2));*/
+  console.log(gradeLabs(studentLabs2)); 
