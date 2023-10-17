@@ -193,6 +193,27 @@
      
     //  console.log(tigger);
    
-    //*********************************************************************** */
+ //*********************************************************************** */
 
-    
+// class Car {
+
+//         constructor(make, model) {
+// this.make = make;
+// this.model = model;
+
+//         }
+//     }
+//     let newCar = new Car("Telsa, '5');
+//     console.log(newCar);
+
+
+
+// class Car {
+// constructor(make, model){
+//  this.make = make;
+//  this.model = model;
+                   
+//     }
+// }
+        
+// let newCar = new Car('Tesla', ); 
