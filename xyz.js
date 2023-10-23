@@ -282,35 +282,35 @@ let arr = [];
 //**************************************************************************************************************
 // This assignment is inspired by a problem on Exercism (https://exercism.org/tracks/javascript/exercises/etl) that demonstrates Extract-Transform-Load using Scrabble's scoring system. 
 
-const input = require("readline-sync");
+// const input = require("readline-sync");
 
-const oldPointStructure = {
-  1: ['A', 'E', 'I', 'O', 'U', 'L', 'N', 'R', 'S', 'T'],
-  2: ['D', 'G'],
-  3: ['B', 'C', 'M', 'P'],
-  4: ['F', 'H', 'V', 'W', 'Y'],
-  5: ['K'],
-  8: ['J', 'X'],
-  10: ['Q', 'Z']
-};
+// const oldPointStructure = {
+//   1: ['A', 'E', 'I', 'O', 'U', 'L', 'N', 'R', 'S', 'T'],
+//   2: ['D', 'G'],
+//   3: ['B', 'C', 'M', 'P'],
+//   4: ['F', 'H', 'V', 'W', 'Y'],
+//   5: ['K'],
+//   8: ['J', 'X'],
+//   10: ['Q', 'Z']
+// };
 
-function oldScrabbleScorer(word) {
-	word = word.toUpperCase();
-	let letterPoints = "";
+// function oldScrabbleScorer(word) {
+// 	word = word.toUpperCase();
+// 	let letterPoints = "";
  
-	for (let i = 0; i < word.length; i++) {
+// 	for (let i = 0; i < word.length; i++) {
 
  
-	  for (const pointValue in oldPointStructure) {
+// 	  for (const pointValue in oldPointStructure) {
  
-		 if (oldPointStructure[pointValue].includes(word[i])) {
-			letterPoints += `Points for '${word[i]}': ${pointValue}\n`
-		 }
+// 		 if (oldPointStructure[pointValue].includes(word[i])) {
+// 			letterPoints += `Points for '${word[i]}': ${pointValue}\n`
+// 		 }
  
-	  }
-	}
-	return letterPoints;
- }
+// 	  }
+// 	}
+// 	return letterPoints;
+//  }
 
 // your job is to finish writing these functions and variables that we've named //
 // don't change the names or your program won't work as expected.
@@ -330,3 +330,12 @@ function oldScrabbleScorer(word) {
 //console.log("This is" an example);
 
 
+// let x = 5;
+// let y = 6;
+// let z = x + y;
+// console.log(z);
+
+function isPalindrome(str){
+    return str === str.split('').reverse().join('');
+}
+console.log(isPalindrome('radar'));

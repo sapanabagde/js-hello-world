@@ -47,7 +47,7 @@ class CrewCandidate {
 
 //    bubbaBear.addScore(83);
 //    console.log(bubbaBear.scores);
-//     console.log(merryMaltese.average());
+//    console.log(merryMaltese.average());
      console.log(bubbaBear.getStatus());
      console.log(merryMaltese.getStatus());
      console.log(gladGator.getStatus());

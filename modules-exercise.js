@@ -10,7 +10,22 @@
 // console.log(`My occupation is, ${occup}`);
 
 
-const input = require("readline-sync");
 
-const name = input.question("What is your name?");
-console.log(`hello ${name}`);
+//Example Exporting Single Function
+
+function isPalindrome(str){
+    return str === str.split('').reverse().join('');
+}
+
+function evenOrOdd(num){
+    if (num%2===0){
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}
+
+function randomArrayElement(arr){
+    let index = Math.floor(Math.random()*arr.length);
+    return arr[index];
+}
