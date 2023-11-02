@@ -1,22 +1,30 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <title>Use addEventListener</title>
-</head>
-<body>
-    <p id="main-text" class="orange" style="font-weight: bold;">
-    a bunch of really valuable text...
-    </p>
-    <button id="ring-button">Ring Bell</button>
+    <head>
+    <title>Form Validation</title>
+    <style>
+        label {display: block;}
+        body {padding: 25px;}
+    </style>
+    </head>
     <script>
-    function youRang() {
-        document.getElementById("main-text").innerHTML += "Houston, we have liftoff!";
-        console.log("you rang...");
-    }
-    // Obtain a reference to the button element
-    let button = document.getElementById("ring-button");
-    // Set named function youRang as the click event handler
-    button.addEventListener("click", youRang);
+         window.addEventListener("load", function() {
+        let form = document.querySelector("form");
+        form.addEventListener("submit", function(event) {
+        let usernameInput = document.querySelector("input[name=username]");
+        let teamName = document.querySelector("input[name=team]");
+        if (usernameInput.value === "" || teamName.value === "") {
+            alert("All fields are required!");
+            // stop the form submission
+            event.preventDefault();
+        }
+        });
+    });
     </script>
-</body>
+    <body>
+    <form method="POST" action="https://handlers.education.launchcode.org/request-parrot">
+        <label>Username <input type="text" name="username"></label>
+        <label>Team Name <input type="text" name="team"></label>
+        <button>Submit</button>
+    </form>
+    </body>
 </html>
